@@ -37,5 +37,10 @@ namespace Parcial1_ejercicio02
                     this.IstPalabras.Items.Add(palabras[i] + "-->" + palabras[i].Length + "caracteres...");
             }
         }
+
+        private void btnsaludar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola, Felices fiestas");
+        }
     }
 }

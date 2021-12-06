@@ -34,6 +34,7 @@ namespace Parcial1_ejercicio02
             this.btnClacular = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.IstPalabras = new System.Windows.Forms.ListBox();
+            this.btnsaludar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -81,11 +82,22 @@ namespace Parcial1_ejercicio02
             this.IstPalabras.Size = new System.Drawing.Size(161, 121);
             this.IstPalabras.TabIndex = 4;
             // 
+            // btnsaludar
+            // 
+            this.btnsaludar.Location = new System.Drawing.Point(436, 194);
+            this.btnsaludar.Name = "btnsaludar";
+            this.btnsaludar.Size = new System.Drawing.Size(178, 82);
+            this.btnsaludar.TabIndex = 5;
+            this.btnsaludar.Text = "SALUDAR ";
+            this.btnsaludar.UseVisualStyleBackColor = true;
+            this.btnsaludar.Click += new System.EventHandler(this.btnsaludar_Click);
+            // 
             // Ejercicio02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnsaludar);
             this.Controls.Add(this.IstPalabras);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnClacular);
@@ -105,6 +117,7 @@ namespace Parcial1_ejercicio02
         private System.Windows.Forms.Button btnClacular;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox IstPalabras;
+        private System.Windows.Forms.Button btnsaludar;
     }
 }
 
